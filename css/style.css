@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Teko:wght@300;500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.titulo{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Anybody', cursive;
+    font-family: 'Teko', sans-serif;
 }
 
 .blender{
@@ -17,7 +27,7 @@
     background-image: url(../img/licuadoraApagada.png);
 }
 
-.blender .active{
+.blender.active{
     background-image: url(../img/licuadoraEncendida.gif);
 }
 
